@@ -34,7 +34,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      <div className="flex gap-3 items-center">
+      <div className="flex gap-5 items-center ">
         <p className="bg-[#f1f1f1] text-black text-sm font-bold py-2 px-3 rounded-3xl cursor-pointer">
           Explore Premium
         </p>
