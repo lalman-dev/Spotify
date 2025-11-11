@@ -69,12 +69,16 @@ const Navbar = () => {
         </div>
         <div className="relative inline-block group">
           <span>
-            <img src={group} alt="Group Icon" className="w-5 cursor-pointer" />
+            <img
+              src={group}
+              alt="Group Icon"
+              className="w-5 cursor-pointer transform transition duration-300 hover:scale-120"
+            />
           </span>
           <span
             className="absolute left-1/2 top-full mt-2 -translate-x-1/2 
                bg-gray-600 text-white text-xs rounded px-2 py-1 
-               opacity-0 group-hover:opacity-100 transition whitespace-nowrap"
+               opacity-0 group-hover:opacity-100 transition whitespace-nowrap "
           >
             Friend Activity
           </span>
