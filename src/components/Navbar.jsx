@@ -123,65 +123,81 @@ const Navbar = () => {
           {isMenuOpen && (
             <ul
               role="menu"
-              className="absolute right-1 mt-2 px-0.5 bg-[#323232] text-white text-sm font-light rounded shadow-lg w-50"
+              className="absolute right-0 mt-2 px-0.5 bg-[#323232] text-white text-sm font-light rounded shadow-lg w-55"
             >
-              <li
-                role="menuitem"
-                className="w-49 p-3 rounded  hover:bg-[#525252] hover:underline flex justify-between items-center"
-              >
+              <li>
                 {" "}
-                <span>Account</span>
-                <a href="/account">
+                <a
+                  href="/account"
+                  role="menuitem"
+                  className="w-54 p-2 rounded  hover:bg-[#525252] hover:underline flex justify-between items-center"
+                >
+                  {" "}
+                  <span>Account</span>
+                  <ExternalLink />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/profile"
+                  role="menuitem"
+                  className="w-54 p-2 rounded hover:bg-[#525252] hover:underline flex"
+                >
+                  <span>Profile</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/upgrade"
+                  role="menuitem"
+                  className="w-54 p-2 rounded hover:bg-[#525252] hover:underline flex justify-between items-center"
+                >
+                  <span>Upgrade to Premium</span>
+                  <ExternalLink />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/support"
+                  role="menuitem"
+                  className="w-54 p-2 rounded hover:bg-[#525252] hover:underline flex justify-between items-center  "
+                >
+                  <span>Support</span>
+                  <ExternalLink />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/download"
+                  role="menuitem"
+                  className="w-54 p-2 rounded hover:bg-[#525252] hover:underline flex justify-between items-center"
+                >
+                  <span>Download</span>
+                  <ExternalLink />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/settings"
+                  role="menuitem"
+                  className="w-54 p-2 rounded hover:bg-[#525252] hover:underline flex justify-between items-center"
+                >
+                  <span>Settings</span>
                   <ExternalLink />
                 </a>
               </li>
               <li
-                role="menuitem"
-                className="w-49 p-3 rounded hover:bg-[#525252] hover:underline"
-              >
-                <a href="/profile">Profile</a>
-              </li>
-              <li
-                role="menuitem"
-                className="w-49 p-3 rounded hover:bg-[#525252] hover:underline flex justify-between items-center"
-              >
-                <span>Upgrade to Premium</span>
-                <a href="/upgrade">
-                  <ExternalLink />
+                role="separator"
+                className="border-t border-[#525252] my-1"
+              ></li>
+              <li>
+                <a
+                  href="/log-out"
+                  role="menuitem"
+                  className="w-54 p-2 rounded hover:bg-[#525252] hover:underline flex"
+                >
+                  <span>Log Out</span>
                 </a>
-              </li>
-              <li
-                role="menuitem"
-                className="w-49 p-3 rounded hover:bg-[#525252] hover:underline flex justify-between items-center  "
-              >
-                <span>Support</span>
-                <a href="/support">
-                  <ExternalLink />
-                </a>
-              </li>
-              <li
-                role="menuitem"
-                className="w-49 p-3 rounded hover:bg-[#525252] hover:underline flex justify-between items-center"
-              >
-                <span>Download</span>
-                <a href="/download">
-                  <ExternalLink />
-                </a>
-              </li>
-              <li
-                role="menuitem"
-                className="w-49 p-3 rounded hover:bg-[#525252] hover:underline flex justify-between items-center"
-              >
-                <span>Settings</span>
-                <a href="/settings">
-                  <ExternalLink />
-                </a>
-              </li>
-              <li
-                role="menuitem"
-                className="w-49 p-3 rounded hover:bg-[#525252] hover:underline"
-              >
-                <a href="/log-out">Log Out</a>
               </li>
             </ul>
           )}
