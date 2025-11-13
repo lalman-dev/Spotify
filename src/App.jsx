@@ -6,8 +6,10 @@ const App = () => {
   return (
     <div>
       <Navbar />
-      <Sidebar />
-      <SongSection />
+      <div className="flex gap-2">
+        <Sidebar />
+        <SongSection />
+      </div>
     </div>
   );
 };
