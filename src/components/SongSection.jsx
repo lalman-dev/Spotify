@@ -1,7 +1,6 @@
 import { CirclePlus, Play, Share } from "lucide-react";
 import thumbnail1 from "/src/assets/Taylor_Swift.png";
 import thumbnail2 from "/src/assets/taylor.png";
-
 import PlayLibraries from "./PlayLibraries";
 
 const SongSection = () => {
@@ -96,7 +95,7 @@ const SongSection = () => {
                   <span>
                     <CirclePlus color="white" className="w-8 h-10 " />
                   </span>
-                  <span className="absolute top-full left-1/2 mt-5 -translate-x-1/2 bg-gray-800 text-gray-200 opacity-0 group-hover:opacity-100 transition whitespace-nowrap">
+                  <span className="absolute top-full left-1/2 mt-5 -translate-x-1/2 bg-gray-800 text-gray-200 text-sm opacity-0 rounded px-2 py-1 group-hover:opacity-100 transition whitespace-nowrap">
                     Add this album to library
                   </span>
                 </button>
@@ -109,7 +108,7 @@ const SongSection = () => {
                   <span>
                     <Share color="white" />
                   </span>
-                  <span className="absolute top-full left-1/2 mt-5 -translate-x-1/2 bg-gray-800 text-gray-200 opacity-0 group-hover:opacity-100 transition whitespace-nowrap">
+                  <span className="absolute top-full left-1/2 mt-5 -translate-x-1/2 bg-gray-800 text-gray-200 text-sm opacity-0 rounded px-2 py-1 group-hover:opacity-100 transition whitespace-nowrap">
                     Share this album
                   </span>
                 </button>

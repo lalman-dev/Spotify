@@ -1,6 +1,8 @@
+
 import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
 import SongSection from "./components/SongSection";
+import MusicPlayer from "./components/MusicPlayer";
 
 const App = () => {
   return (
@@ -10,6 +12,7 @@ const App = () => {
         <Sidebar />
         <SongSection />
       </div>
+      <MusicPlayer />
     </div>
   );
 };

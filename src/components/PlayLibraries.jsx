@@ -9,7 +9,7 @@ import thumbnail10 from "/src/assets/kk.png";
 import thumbnail11 from "/src/assets/megahit.png";
 import thumbnail12 from "/src/assets/mix2010.png";
 import thumbnail13 from "/src/assets/tophit.png";
-import thumbnail14 from "/src/assets/toptrack.png";
+
 const PlayLibraries = ({ maxWidth = "max-w-full" }) => {
   return (
     <section aria-labelledby="library-heading">
@@ -21,7 +21,7 @@ const PlayLibraries = ({ maxWidth = "max-w-full" }) => {
         className={`w-full ${maxWidth} overflow-x-auto overflow-y-hidden scrollbar-hide`}
       >
         <ul className="flex flex-nowrap">
-          <li className="flex-none shrink-0 w-44 px-2 py-2 rounded-md hover:bg-[#323232]">
+          <li className="flex-none shrink-0 w-44 px-2 py-2 rounded-md cursor-pointer hover:bg-[#323232]">
             <figure>
               <img src={thumbnail3} alt="" className="w-40 h-40 rounded" />
               <figcaption className="text-gray-200 text-[14px]">
@@ -29,7 +29,7 @@ const PlayLibraries = ({ maxWidth = "max-w-full" }) => {
               </figcaption>
             </figure>
           </li>
-          <li className="flex-none shrink-0 w-44 px-2 py-2 rounded-md hover:bg-[#323232]">
+          <li className="flex-none shrink-0 w-44 px-2 py-2 rounded-md cursor-pointer hover:bg-[#323232]">
             <figure>
               <img src={thumbnail4} alt="" className="w-40 h-40 rounded" />
               <span className="text-gray-200 text-[14px]">
@@ -38,7 +38,7 @@ const PlayLibraries = ({ maxWidth = "max-w-full" }) => {
               </span>
             </figure>
           </li>
-          <li className="flex-none shrink-0 w-44 px-2 py-2 rounded-md hover:bg-[#323232]">
+          <li className="flex-none shrink-0 w-44 px-2 py-2 rounded-md cursor-pointer hover:bg-[#323232]">
             <figure>
               <img src={thumbnail5} alt="" className="w-40 h-40 rounded" />
               <figcaption className="text-gray-200 text-[14px]">
@@ -47,7 +47,7 @@ const PlayLibraries = ({ maxWidth = "max-w-full" }) => {
               </figcaption>
             </figure>
           </li>
-          <li className="flex-none shrink-0 w-44 px-2 py-2 rounded-md hover:bg-[#323232]">
+          <li className="flex-none shrink-0 w-44 px-2 py-2 rounded-md cursor-pointer hover:bg-[#323232]">
             <figure>
               <img src={thumbnail6} alt="" className="w-40 h-40 rounded" />
               <figcaption className="text-gray-200 text-[14px]">
@@ -55,7 +55,7 @@ const PlayLibraries = ({ maxWidth = "max-w-full" }) => {
               </figcaption>
             </figure>
           </li>
-          <li className="flex-none shrink-0 w-44 px-2 py-2 rounded-md hover:bg-[#323232]">
+          <li className="flex-none shrink-0 w-44 px-2 py-2 rounded-md cursor-pointer hover:bg-[#323232]">
             <figure>
               <img src={thumbnail7} alt="" className="w-40 h-40 rounded" />
               <figcaption className="text-gray-200 text-[14px]">
@@ -63,7 +63,7 @@ const PlayLibraries = ({ maxWidth = "max-w-full" }) => {
               </figcaption>
             </figure>
           </li>
-          <li className="flex-none shrink-0 w-44 px-2 py-2 rounded-md hover:bg-[#323232]">
+          <li className="flex-none shrink-0 w-44 px-2 py-2 rounded-md cursor-pointer hover:bg-[#323232]">
             <figure>
               <img src={thumbnail8} alt="" className="w-40 h-40 rounded" />
               <figcaption className="text-gray-200 text-[14px]">
@@ -71,7 +71,7 @@ const PlayLibraries = ({ maxWidth = "max-w-full" }) => {
               </figcaption>
             </figure>
           </li>
-          <li className="flex-none shrink-0 w-44 px-2 py-2 rounded-md hover:bg-[#323232]">
+          <li className="flex-none shrink-0 w-44 px-2 py-2 rounded-md cursor-pointer hover:bg-[#323232]">
             <figure>
               <img src={thumbnail9} alt="" className="w-40 h-40 rounded" />
               <figcaption className="text-gray-200 text-[14px]">
@@ -81,7 +81,7 @@ const PlayLibraries = ({ maxWidth = "max-w-full" }) => {
               </figcaption>
             </figure>
           </li>
-          <li className="flex-none shrink-0 w-44 px-2 py-2 rounded-md hover:bg-[#323232]">
+          <li className="flex-none shrink-0 w-44 px-2 py-2 rounded-md cursor-pointer hover:bg-[#323232]">
             <figure>
               <img src={thumbnail10} alt="" className="w-40 h-40 rounded" />
               <figcaption className="text-gray-200 text-[14px]">
@@ -89,7 +89,7 @@ const PlayLibraries = ({ maxWidth = "max-w-full" }) => {
               </figcaption>
             </figure>
           </li>
-          <li className="flex-none shrink-0 w-44 px-2 py-2 rounded-md hover:bg-[#323232]">
+          <li className="flex-none shrink-0 w-44 px-2 py-2 rounded-md cursor-pointer hover:bg-[#323232]">
             <figure>
               <img src={thumbnail11} alt="" className="w-40 h-40 rounded" />
               <figcaption className="text-gray-200 text-[14px]">
@@ -97,7 +97,7 @@ const PlayLibraries = ({ maxWidth = "max-w-full" }) => {
               </figcaption>
             </figure>
           </li>
-          <li className="flex-none shrink-0 w-44 px-2 py-2 rounded-md hover:bg-[#323232]">
+          <li className="flex-none shrink-0 w-44 px-2 py-2 rounded-md cursor-pointer hover:bg-[#323232]">
             <figure>
               <img src={thumbnail12} alt="" className="w-40 h-40 rounded" />
               <figcaption className="text-gray-200 text-[14px]">
@@ -105,7 +105,7 @@ const PlayLibraries = ({ maxWidth = "max-w-full" }) => {
               </figcaption>
             </figure>
           </li>
-          <li className="flex-none shrink-0 w-44 px-2 py-2 rounded-md hover:bg-[#323232]">
+          <li className="flex-none shrink-0 w-44 px-2 py-2 rounded-md cursor-pointer hover:bg-[#323232]">
             <figure>
               <img src={thumbnail13} alt="" className="w-40 h-40 rounded" />
               <figcaption className="text-gray-200 text-[14px]">
