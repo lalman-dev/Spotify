@@ -14,6 +14,10 @@ This project focuses purely on **frontend design and layout replication**, witho
 ![GitHub](https://img.shields.io/badge/Version%20Control-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
 ---
+## Screenshot
+<img width="1440" height="900" alt="Screenshot 2025-12-24 at 3 45 02 PM" src="https://github.com/user-attachments/assets/0ed8bec5-ed56-4937-a72f-0149975ada5b" />
+
+---
 
 ## ✨ Features
 - 🎨 **Spotify-style UI** with sidebar, navbar, and main content area  
@@ -60,7 +64,7 @@ npm run dev
 📬 Contact
 📧 Email: lalman.dev7@gmail.com
 
-💼 LinkedIn: [Lalman] https://www.linkedin.com/in/lalman-dev/
+💼 LinkedIn: https://www.linkedin.com/in/lalman-dev/
 
 🐦 Twitter: @imchaudhary2
 
